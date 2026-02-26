@@ -30,8 +30,8 @@ This project targets **14 defect classes** (scratches, particles, contamination,
 ## Solution Overview
 
 Hybrid inspection pipeline:
-1. **YOLOv11 detection** provides fast candidate defect locations (bounding boxes)
-2. **SegNExt segmentation** refines defect regions at pixel level (small/subtle defects)
+1. **Object detection** provides fast candidate defect locations (bounding boxes)
+2. **Segmentation** refines defect regions at pixel level (small/subtle defects)
 3. **TensorRT** accelerates inference for production-grade throughput
 
 ---
